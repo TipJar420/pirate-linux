@@ -1,0 +1,70 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "builtin",
+        "source": "pirate", // Locks in the built-in skull and crossbones asset!
+        "padding": {
+            "right": 4
+        },
+        "color": {
+            "1": "bright_white", // The primary skull color
+            "2": "bright_black"  // The deep background shadows
+        }
+    },
+    "display": {
+        "separator": " : "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "{1}@{2} (Pirate Linux Engine)"
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "Host",
+            "format": "blendOS 4 (Arch Engine Base)"
+        },
+        {
+            "type": "kernel",
+            "key": "Kernel"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime"
+        },
+        {
+            "type": "wm",
+            "key": "Desktop",
+            "format": "COSMIC [com.system76.CosmicComp/v1]"
+        },
+        {
+            "type": "packages",
+            "key": "Packages"
+        },
+        {
+            "type": "shell",
+            "key": "Shell"
+        },
+        "break",
+        {
+            "type": "cpu",
+            "key": "CPU"
+        },
+        {
+            "type": "gpu",
+            "key": "GPU"
+        },
+        "break",
+        {
+            "type": "custom",
+            "key": "Publisher",
+            "format": "Sovereign, Inc."
+        },
+        {
+            "type": "custom",
+            "key": "Contributer",
+            "format": "aaronvoreck.eth"
+        }
+    ]
+}
